@@ -10,7 +10,7 @@ export default function Contacts() {
     return (
         <div className={rubikMonoOne.className}>
             <div id ="contacts" >
-                <div>
+                <div id ="gh">
                     <a href="https://github.com/pollyp0/pollyp0.github.io" target="_blank">
                         GitHub
                     </a>
@@ -24,7 +24,6 @@ export default function Contacts() {
                     <a href="https://vk.com/id295052326" target="_blank">
                         Vkontakte
                     </a>
-                    <span>VKontakte</span>
                 </div>
             </div>
         </div>

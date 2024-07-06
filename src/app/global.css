@@ -125,6 +125,17 @@ a {
     font-size: 44px;
 
 }
+#tg:hover {
+    text-decoration: underline;
+}
+
+#vk:hover {
+    text-decoration: underline;
+}
+
+#gh:hover {
+    text-decoration: underline;
+}
 
 #tg {
     padding-top: 100px;
