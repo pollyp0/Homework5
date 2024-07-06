@@ -25,6 +25,7 @@ export default function ComicPage() {
             await comicController.setUp();
 
             const result = document.getElementById('result');
+            // @ts-ignore
             result.innerHTML = "";
 
             const img = document.createElement('img');
