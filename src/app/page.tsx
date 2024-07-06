@@ -33,10 +33,10 @@ export default function Home() {
                     <div className="blue-block-text" id="blueBlockText"></div>
                 </div>
 
-                <div className="right-side">
-                    <div className="blue-block" id="blueBlock"></div>
-                    <img id="photo" src="/me.jpg" alt="me"/>
-                </div>
+                {/*<div className="right-side">*/}
+                {/*    <div className="blue-block" id="blueBlock"></div>*/}
+                {/*    <img id="photo" src="/me.jpg" alt="me"/>*/}
+                {/*</div>*/}
             </div>
         </div>
 

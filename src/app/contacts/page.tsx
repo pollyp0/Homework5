@@ -12,19 +12,17 @@ export default function Contacts() {
             <div id ="contacts" >
                 <div>
                     <a href="https://github.com/pollyp0/pollyp0.github.io" target="_blank">
-                        <img src="/github%201.svg" alt="GitHub"/>
+                        GitHub
                     </a>
-                    <span>GitHub</span>
                 </div>
                 <div id = "tg">
                     <a href="https://telegram.me/polly_p0" target="_blank">
-                        <img src="/telegram.svg" alt="Telegram"/>
+                        Telegram
                     </a>
-                    <span>Telegram</span>
                 </div>
                 <div id = "vk">
                     <a href="https://vk.com/id295052326" target="_blank">
-                        <img src="/vk.svg" alt="VK"/>
+                        Vkontakte
                     </a>
                     <span>VKontakte</span>
                 </div>

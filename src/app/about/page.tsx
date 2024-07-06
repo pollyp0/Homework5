@@ -10,10 +10,10 @@ export default function About() {
     return (
         <div className={robotoMono.className}>
             <div className="about-me-container">
-                <div className="photo-about">
-                    <img src="/me2.jpg" alt="me"/>
+                {/*<div className="photo-about">*/}
+                {/*    <img src="/me2.jpg" alt="me"/>*/}
 
-                </div>
+                {/*</div>*/}
                 <div className="about-me">
                     <div id="hello" className={rubikMonoOne.className}>
                         ABOUT ME
