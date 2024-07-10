@@ -1,14 +1,26 @@
 import './global.css'
 import {Roboto_Mono} from 'next/font/google'
 import {Rubik_Mono_One} from 'next/font/google'
+import Head from 'next/head';
+
 
 const robotoMono = Roboto_Mono({subsets: ['latin']})
 
 const rubikMonoOne = Rubik_Mono_One({subsets: ['latin'], weight: '400', style: ['normal']})
+import React from 'react';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Home page',
+  description:
+    'Welcome to my website! This is home page',
+};
+
 
 export default function Home() {
+
     return (
-        <div className={robotoMono.className}>
+          <div className={robotoMono.className}>
             <div className="containerBody">
                 <div className="mainText">
                     <div className="internal-container">
@@ -39,7 +51,6 @@ export default function Home() {
                 {/*</div>*/}
             </div>
         </div>
-
     )
 }
 

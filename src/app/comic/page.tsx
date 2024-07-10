@@ -6,6 +6,9 @@ import {Roboto_Mono} from 'next/font/google'
 import {Rubik_Mono_One} from 'next/font/google'
 import {useEffect} from "react";
 
+import Head from 'next/head';
+
+
 const robotoMono = Roboto_Mono({subsets: ['latin']})
 
 const rubikMonoOne = Rubik_Mono_One({subsets: ['latin'], weight: '400', style: ['normal']})
@@ -50,7 +53,14 @@ export default function ComicPage() {
     })
 
 
+
+
     return (
+      <div>
+          <Head>
+              <meta name="description" content="Welcome to my website! This page for your fun"/>
+              <title>Comic Page - My Website</title>
+          </Head>
         <div className="container">
             <h1 className={rubikMonoOne.className}>XKCD Comic Viewer</h1>
             <p>Enter your email address to receive a random XKCD comic:</p>
@@ -61,6 +71,7 @@ export default function ComicPage() {
 
             <div id="result"></div>
         </div>
+      </div>
 
     )
 }

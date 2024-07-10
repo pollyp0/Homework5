@@ -1,10 +1,20 @@
 import '../global.css'
 import {Roboto_Mono} from 'next/font/google'
 import {Rubik_Mono_One} from 'next/font/google'
+import Head from 'next/head';
 
 const robotoMono = Roboto_Mono({subsets: ['latin']})
 
 const rubikMonoOne = Rubik_Mono_One({subsets: ['latin'], weight: '400', style: ['normal']})
+import React from 'react';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About me',
+  description:
+    'Welcome to my website! This is some information about me',
+};
+
 
 export default function About() {
     return (

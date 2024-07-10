@@ -1,6 +1,8 @@
 import './global.css'
 import Link from "next/link";
 import {Roboto_Mono} from 'next/font/google'
+import Head from 'next/head';
+
 
 const robotoMono = Roboto_Mono({subsets: ['latin']})
 export const metadata = {
@@ -14,6 +16,10 @@ export default function RootLayout({
 }) {
   return (
       <html lang="en">
+      <Head>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <meta name="author" content="Polly Po" />
+      </Head>
       <body className={robotoMono.className}>
       <div className="header-container">
           <Link href='/'>HOME</Link>
